@@ -3,9 +3,12 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
-import { PhoneComponent } from './phone/phone.component';
-import { LaptopComponent } from './laptop/laptop.component';
+
+
 import { FooterComponent } from './footer/footer.component';
+
+import { ContentComponent } from './content/content.component';
+import { SanphamComponent } from './content/sanpham/sanpham.component';
 
 
 @NgModule({
@@ -13,9 +16,9 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
      HeaderComponent, 
      SliderComponent, 
-     PhoneComponent, 
-     LaptopComponent, 
-     FooterComponent
+     FooterComponent, 
+     ContentComponent, 
+     SanphamComponent
     ],
   imports: [
     CommonModule
@@ -24,8 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     HeaderComponent, 
     SliderComponent, 
-    PhoneComponent, 
-    LaptopComponent, 
+    ContentComponent, 
+    SanphamComponent,
     FooterComponent
   ]
 })
